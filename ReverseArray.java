@@ -27,8 +27,9 @@ public class ReverseArray{
                 for (int i = n-1; i >=0; i--) {
                         ans[j++]=arr[i];
                 }
+                System.out.println("Reverse of the array:");
                 for (int i : ans) {
-                        System.out.print("Reverse of the array:"+ i + " ");
+                        System.out.print( i + " ");
                 }
         }
 }
